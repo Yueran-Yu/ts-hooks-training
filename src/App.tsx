@@ -6,11 +6,13 @@ import {UseReducerComponent} from "./UseReducerComponent";
 import {UseRefComponent} from "./UseRefComponent";
 import {CustomerHookComponent} from "./CustomHookComponent";
 import {TestComponent} from "./EvenMoreReactComponent";
+import {RadioGroup} from "./RadioGroupPorvider/RadioGroup";
 
 
 function App() {
 	return (
 		<div>
+			<RadioGroup />
 			<UseRefComponent/>
 			<UseStateComponent/>
 			<UseEffectComponent/>
