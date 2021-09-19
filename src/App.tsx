@@ -7,12 +7,14 @@ import {UseRefComponent} from "./UseRefComponent";
 import {CustomerHookComponent} from "./CustomHookComponent";
 import {TestComponent} from "./EvenMoreReactComponent";
 import {RadioGroup} from "./RadioGroupPorvider/RadioGroup";
+import CtxExample from "./useContextExample";
 
 
 function App() {
 	return (
 		<div>
-			<RadioGroup />
+			<CtxExample/>
+			<RadioGroup/>
 			<UseRefComponent/>
 			<UseStateComponent/>
 			<UseEffectComponent/>
